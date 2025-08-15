@@ -1,10 +1,6 @@
 
 # Human Action Recognition using Detectron2 and LSTM
 
-**This repository contains code for [Human Action Recognition using Detectron2 and LSTM](https://learnopencv.com/human-action-recognition-using-detectron2-and-lstm/) blogpost**.
-
-[<img src="https://learnopencv.com/wp-content/uploads/2022/07/download-button-e1657285155454.png" alt="download" width="200">](https://www.dropbox.com/sh/by7lb7c16u7l1kn/AACeWs1gepOp0N1VfB5kdkvCa?dl=1)
-
 This is an application built to show how human action classification can be done using 2D Pose Estimation and LSTM RNN machine learning models. 
 
 2D pose estimation is done using Facebook AI Research's Detectron2. A LSTM model is used to classify actions from 2D pose estimation output from a sequence of consecutive frames on a video. 
@@ -55,3 +51,4 @@ When you click on 'Submit', you will see a progress bar showing the progress and
 We have provided jupytyer notebooks to run the application 
 1. To run the application (for example in google colab),  use *human_action_classification.ipynb*
 2. To train the LSTM model, use *lstm_train.ipynb* (You don't need this unless you want to retrain the model with your own data set or experiment with it.)
+
